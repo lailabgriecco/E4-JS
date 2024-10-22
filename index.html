@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Finder</title>
+    <style>
+        /* Un estilo básico para la card */
+        .pokemon-card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-top: 20px;
+            width: 250px;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        .pokemon-image {
+            width: 150px;
+            height: 150px;
+        }
+
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Encuentra tu Pokémon</h1>
+    <input type="number" id="pokemon-id" placeholder="Ingresa el número del Pokémon">
+    <button id="search-btn">Buscar</button>
+    <div id="pokemon-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
